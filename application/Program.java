@@ -16,11 +16,7 @@ public class Program {
         String opc = "s";
 
         while (opc.equals("s")) {
-            /* int qtd = 0;
-            System.out.print("Numero de registros: ");
-            qtd = sc.nextInt();
-            sc.nextLine();*/
-
+           
             for (int i = 0; i < 1; i++) {
                 System.out.print("Nome: ");
                 String name = sc.nextLine();
@@ -34,7 +30,6 @@ public class Program {
             System.out.println();
             System.out.print("Deseja registrar mais? 's'ou 'n'(sair) ''");
             opc = sc.nextLine();
-            //sc.nextLine();
 
         }
 
